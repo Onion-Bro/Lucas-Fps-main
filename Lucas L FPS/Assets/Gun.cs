@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
     public float fireRate = 15f;
     public float impactForce = 30f;
 
+        
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
