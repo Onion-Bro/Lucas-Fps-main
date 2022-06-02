@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 79eec391c280548458d5789221ed0ab6
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Flip:LeftUpLegRoll' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Flip:LeftLegRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:RightUpLegRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:RightLegRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:Spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:LeftArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:LeftForeArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:RightArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Flip:RightForeArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Flip:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Flip:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: -1.4018189}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Hips
+      parentName: Idle(Clone)
+      position: {x: 0.000672251, y: 0.9724685, z: 1.4227519}
+      rotation: {x: 0.022324493, y: 0.0030019977, z: -0.0043012705, w: 0.999737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftUpLeg
+      parentName: Flip:Hips
+      position: {x: -0.0891, y: -0.0627, z: -0.02145}
+      rotation: {x: -0.14384496, y: 0.004909637, z: -0.00053900067, w: 0.9895879}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftUpLegRoll
+      parentName: Flip:LeftUpLeg
+      position: {x: 8.8817837e-17, y: -0.22732288, z: -0.0000000047116924}
+      rotation: {x: 3.0649484e-17, y: 0.0005441284, z: -1.6659128e-20, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftLeg
+      parentName: Flip:LeftUpLegRoll
+      position: {x: 1.2434498e-16, y: -0.22146356, z: 5.1766647e-10}
+      rotation: {x: 0.2867589, y: -0.006797756, z: -0.002034828, w: 0.9579765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftLegRoll
+      parentName: Flip:LeftLeg
+      position: {x: 8.8817837e-17, y: -0.22091947, z: 1.3643073e-10}
+      rotation: {x: 3.0666795e-17, y: 0.00082686415, z: -2.5315414e-20, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftFoot
+      parentName: Flip:LeftLegRoll
+      position: {x: 1.4210854e-16, y: -0.1860901, z: 1.6969627e-10}
+      rotation: {x: -0.13864768, y: 0.0007146296, z: -0.012861067, w: 0.990258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftToeBase
+      parentName: Flip:LeftFoot
+      position: {x: -5.3290704e-17, y: -0.06262317, z: 0.12954749}
+      rotation: {x: -9.1364855e-10, y: 3.4209276e-18, z: 0.000000003744249, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftToe_End
+      parentName: Flip:LeftToeBase
+      position: {x: -0, y: 0, z: 0.059668574}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightUpLeg
+      parentName: Flip:Hips
+      position: {x: 0.0891, y: -0.0627, z: -0.02145}
+      rotation: {x: -0.13851136, y: 0.02853322, z: 0.031629693, w: 0.9894443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightUpLegRoll
+      parentName: Flip:RightUpLeg
+      position: {x: 0.000000027163344, y: -0.22732288, z: -0.0000000045137405}
+      rotation: {x: 3.0807207e-17, y: 0.0031222992, z: -9.559285e-20, w: 0.9999951}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightLeg
+      parentName: Flip:RightUpLegRoll
+      position: {x: 4.2454926e-15, y: -0.22146356, z: 1.4554018e-10}
+      rotation: {x: 0.26438627, y: -0.052876387, z: -0.01451907, w: 0.9628568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightLegRoll
+      parentName: Flip:RightLeg
+      position: {x: -0.000000009195622, y: -0.22091947, z: 4.097143e-10}
+      rotation: {x: 3.0621167e-17, y: 0.00008159414, z: -2.4981002e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightFoot
+      parentName: Flip:RightLegRoll
+      position: {x: 3.6060043e-15, y: -0.1860901, z: -7.985643e-12}
+      rotation: {x: -0.13792975, y: 0.000040092375, z: -0.012747876, w: 0.99036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightToeBase
+      parentName: Flip:RightFoot
+      position: {x: 6.441603e-13, y: -0.06262317, z: 0.12954749}
+      rotation: {x: 7.975363e-10, y: 2.0271115e-14, z: -0.000025417168, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightToe_End
+      parentName: Flip:RightToeBase
+      position: {x: -0, y: 0.000009424168, z: 0.059668574}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Spine
+      parentName: Flip:Hips
+      position: {x: -0.000000023230104, y: 0.07431739, z: -0.020616235}
+      rotation: {x: -0.0007821359, y: -0.001226364, z: -0.00018702587, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Spine1
+      parentName: Flip:Spine
+      position: {x: 0.00000016877158, y: 0.121899195, z: -0.014195127}
+      rotation: {x: 0.0003051921, y: -0.00094438175, z: 0.0017255376, w: 0.99999803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Spine2
+      parentName: Flip:Spine1
+      position: {x: 0.000000038787896, y: 0.11884588, z: -0.010902979}
+      rotation: {x: 0.00030734966, y: -0.00095121114, z: 0.0016631376, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Spine3
+      parentName: Flip:Spine2
+      position: {x: -0.00000018432937, y: 0.10513744, z: 0.010400087}
+      rotation: {x: 0.00030955925, y: -0.0009506239, z: 0.0016488831, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Neck
+      parentName: Flip:Spine3
+      position: {x: -0.00000002323007, y: 0.11515604, z: 0.019470166}
+      rotation: {x: -0.02881163, y: -0.009299781, z: 0.028463459, w: 0.99913627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Head
+      parentName: Flip:Neck
+      position: {x: 0.00000012621454, y: 0.11073312, z: 0.01654317}
+      rotation: {x: -0.05510314, y: 0.010699853, z: -0.05099426, w: 0.99712026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:Head_End
+      parentName: Flip:Head
+      position: {x: -0, y: 0.17704691, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftShoulder
+      parentName: Flip:Spine3
+      position: {x: -0.07, y: 0.045685504, z: 0.02067404}
+      rotation: {x: -0.0070683192, y: 0.06199937, z: 0.11305182, w: 0.9916277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftArm
+      parentName: Flip:LeftShoulder
+      position: {x: -0.1070725, y: -5.087486e-14, z: -5.3290704e-17}
+      rotation: {x: 0.09180784, y: -0.06992298, z: -0.09329148, w: 0.98892814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftArmRoll
+      parentName: Flip:LeftArm
+      position: {x: -0.1526119, y: 3.9506176e-14, z: 1.163648e-10}
+      rotation: {x: 0.011733996, y: -0, z: -0, w: 0.99993116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftForeArm
+      parentName: Flip:LeftArmRoll
+      position: {x: -0.12044275, y: -1.2505552e-14, z: 2.878977e-11}
+      rotation: {x: 0.48063636, y: 0.013411118, z: -0.021860644, w: 0.8765449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftForeArmRoll
+      parentName: Flip:LeftForeArm
+      position: {x: -0.16327728, y: 2.842171e-14, z: -1.1864923e-10}
+      rotation: {x: 0.0049526985, y: -0, z: -0, w: 0.9999877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHand
+      parentName: Flip:LeftForeArmRoll
+      position: {x: -0.103694186, y: 3.126388e-15, z: 2.2989405e-10}
+      rotation: {x: -0.012054827, y: -0.020093745, z: 0.11382596, w: 0.9932243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandThumb1
+      parentName: Flip:LeftHand
+      position: {x: -0.043487567, y: -0.007985025, z: 0.04282434}
+      rotation: {x: -0.084165245, y: 0.05929245, z: -0.42047304, w: 0.901445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandThumb2
+      parentName: Flip:LeftHandThumb1
+      position: {x: -0.025125898, y: -0.0053609936, z: 0.0070745433}
+      rotation: {x: -0.03658879, y: 0.10852494, z: 0.13136771, w: 0.984696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandThumb3
+      parentName: Flip:LeftHandThumb2
+      position: {x: -0.025431404, y: 9.947598e-15, z: 0.00000009341982}
+      rotation: {x: -0.00000018998972, y: 0.0000017732374, z: 0.03204729, w: 0.9994864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandThumb4
+      parentName: Flip:LeftHandThumb3
+      position: {x: -0.02666746, y: -1.2789769e-14, z: -0.00000008210254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandIndex1
+      parentName: Flip:LeftHand
+      position: {x: -0.08821976, y: 0.0019972918, z: 0.03471669}
+      rotation: {x: -0.022130191, y: 0.054783534, z: 0.042935446, w: 0.99732924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandIndex2
+      parentName: Flip:LeftHandIndex1
+      position: {x: -0.042253193, y: 4.837375e-13, z: -0.0000026265568}
+      rotation: {x: 0.00009330174, y: -0.0000027045605, z: -0.000004111323, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandIndex3
+      parentName: Flip:LeftHandIndex2
+      position: {x: -0.026539363, y: 2.9871217e-13, z: -0.0000016515987}
+      rotation: {x: 0.0000284023, y: -0.0000008975304, z: 0.020530341, w: 0.9997893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandIndex4
+      parentName: Flip:LeftHandIndex3
+      position: {x: -0.019582229, y: 2.2311042e-13, z: -0.0000012217021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandMiddle1
+      parentName: Flip:LeftHand
+      position: {x: -0.088098794, y: 0.0050089043, z: 0.013046844}
+      rotation: {x: -0.012375341, y: 0.049047012, z: 0.038716488, w: 0.99796915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandMiddle2
+      parentName: Flip:LeftHandMiddle1
+      position: {x: -0.048632517, y: 1.1084466e-14, z: 6.112166e-14}
+      rotation: {x: 0.000000912696, y: 0.0000019446013, z: 0.000002804736, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandMiddle3
+      parentName: Flip:LeftHandMiddle2
+      position: {x: -0.027652366, y: 3.694822e-15, z: -0.0000000019178426}
+      rotation: {x: 0.0000009849017, y: 0.0000016479311, z: 0.02140725, w: 0.9997708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandMiddle4
+      parentName: Flip:LeftHandMiddle3
+      position: {x: -0.02005632, y: -8.526512e-15, z: -0.000000011386343}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandRing1
+      parentName: Flip:LeftHand
+      position: {x: -0.088937595, y: 0.0037991954, z: -0.007931589}
+      rotation: {x: -0.02414473, y: 0.056198224, z: 0.042368323, w: 0.9972281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandRing2
+      parentName: Flip:LeftHandRing1
+      position: {x: -0.045377586, y: 8.2422955e-15, z: -0.0000028213829}
+      rotation: {x: 0.00007858311, y: 0.00000026449553, z: 0.0000014835963, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandRing3
+      parentName: Flip:LeftHandRing2
+      position: {x: -0.023045259, y: 0, z: -0.000001434481}
+      rotation: {x: 0.000024498033, y: 0.0000019387878, z: 0.024623848, w: 0.9996968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandRing4
+      parentName: Flip:LeftHandRing3
+      position: {x: -0.019233473, y: -4.263256e-15, z: -0.0000012044047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandPinky1
+      parentName: Flip:LeftHand
+      position: {x: -0.088822745, y: -0.00313027, z: -0.024903564}
+      rotation: {x: -0.0010920239, y: 0.00851254, z: 0.01950681, w: 0.9997729}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandPinky2
+      parentName: Flip:LeftHandPinky1
+      position: {x: -0.030440992, y: -2.046363e-14, z: 1.3322676e-17}
+      rotation: {x: -0.00000025355254, y: 0.0000013066455, z: 0.0016075938, w: 0.9999987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandPinky3
+      parentName: Flip:LeftHandPinky2
+      position: {x: -0.019745015, y: 2.8421708e-15, z: -0.0000000014332917}
+      rotation: {x: 0.0000005732431, y: -0.000001263639, z: 0.026963854, w: 0.9996365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:LeftHandPinky4
+      parentName: Flip:LeftHandPinky3
+      position: {x: -0.016666146, y: 1.6484591e-14, z: 0.000000007913471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightShoulder
+      parentName: Flip:Spine3
+      position: {x: 0.06999999, y: 0.045685504, z: 0.020672971}
+      rotation: {x: -0.015561438, y: -0.078914076, z: -0.14564297, w: 0.98606217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightArm
+      parentName: Flip:RightShoulder
+      position: {x: 0.10707275, y: 5.2011726e-14, z: 2.0428103e-16}
+      rotation: {x: 0.06516078, y: 0.08142112, z: 0.12793346, w: 0.98628485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightArmRoll
+      parentName: Flip:RightArm
+      position: {x: 0.15261246, y: -6.338041e-14, z: 1.8665913e-10}
+      rotation: {x: 0.022328958, y: -2.7345088e-18, z: -2.7345088e-18, w: 0.9997507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightForeArm
+      parentName: Flip:RightArmRoll
+      position: {x: 0.120443515, y: -8.4696695e-14, z: -7.9878236e-11}
+      rotation: {x: 0.4350757, y: -0.015965631, z: 0.021056589, w: 0.90000606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightForeArmRoll
+      parentName: Flip:RightForeArm
+      position: {x: 0.1632763, y: -1.1198153e-13, z: -2.3626434e-10}
+      rotation: {x: 0.0049949023, y: 0.000000023963615, z: 0.000000065015804, w: 0.99998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHand
+      parentName: Flip:RightForeArmRoll
+      position: {x: 0.10369357, y: -8.5265126e-16, z: 1.6416624e-10}
+      rotation: {x: -0.0017570072, y: 0.033441264, z: -0.12982967, w: 0.9909706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandThumb1
+      parentName: Flip:RightHand
+      position: {x: 0.043483756, y: -0.007985009, z: 0.04282821}
+      rotation: {x: -0.094588056, y: -0.10511722, z: 0.3961776, w: 0.90721923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandThumb2
+      parentName: Flip:RightHandThumb1
+      position: {x: 0.025125267, y: -0.0053609926, z: 0.0070767906}
+      rotation: {x: -0.034875624, y: -0.09112319, z: -0.13335572, w: 0.98625386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandThumb3
+      parentName: Flip:RightHandThumb2
+      position: {x: 0.025415892, y: 2.7682744e-13, z: 0.00088823185}
+      rotation: {x: -0.006541599, y: -0.0000015869738, z: -0.032893054, w: 0.9994375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandThumb4
+      parentName: Flip:RightHandThumb3
+      position: {x: 0.026651196, y: 1.8673062e-13, z: 0.00093140325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandIndex1
+      parentName: Flip:RightHand
+      position: {x: 0.088216685, y: 0.001997318, z: 0.034724563}
+      rotation: {x: -0.022157807, y: -0.054788932, z: -0.04294161, w: 0.9973281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandIndex2
+      parentName: Flip:RightHandIndex1
+      position: {x: 0.042253204, y: 2.4726887e-14, z: 0.0000011459958}
+      rotation: {x: -0.000040141855, y: -0.000002820044, z: -0.0000025712645, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandIndex3
+      parentName: Flip:RightHandIndex2
+      position: {x: 0.02653937, y: 1.3926637e-14, z: 0.00000071960113}
+      rotation: {x: -0.000012831056, y: 0.00000477962, z: -0.020526953, w: 0.99978936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandIndex4
+      parentName: Flip:RightHandIndex3
+      position: {x: 0.019582232, y: 1.364242e-14, z: 0.00000053095573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandMiddle1
+      parentName: Flip:RightHand
+      position: {x: 0.08809764, y: 0.0050089275, z: 0.013054708}
+      rotation: {x: -0.017807638, y: -0.05216677, z: -0.0405113, w: 0.9976575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandMiddle2
+      parentName: Flip:RightHandMiddle1
+      position: {x: 0.048632525, y: -1.3073986e-14, z: 0.0000013188092}
+      rotation: {x: -0.00003797373, y: 0.000000007450577, z: -0.0000024572353, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandMiddle3
+      parentName: Flip:RightHandMiddle2
+      position: {x: 0.02765237, y: 1.762146e-14, z: 0.00000074985434}
+      rotation: {x: -0.000012748981, y: 0.000001261131, z: -0.02134109, w: 0.99977225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandMiddle4
+      parentName: Flip:RightHandMiddle3
+      position: {x: 0.020056326, y: 0, z: 0.00000054388795}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandRing1
+      parentName: Flip:RightHand
+      position: {x: 0.08893833, y: 0.0037992152, z: -0.007923643}
+      rotation: {x: -0.029780883, y: -0.059980102, z: -0.04370529, w: 0.9967976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandRing2
+      parentName: Flip:RightHandRing1
+      position: {x: 0.045377597, y: 4.092726e-14, z: 0.000001230485}
+      rotation: {x: -0.00003292597, y: -0.00000064447505, z: 0.0000009608918, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandRing3
+      parentName: Flip:RightHandRing2
+      position: {x: 0.023045262, y: 4.1211477e-14, z: 0.00000062485867}
+      rotation: {x: -0.000010192444, y: -0.0000008817057, z: -0.024819756, w: 0.99969196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandRing4
+      parentName: Flip:RightHandRing3
+      position: {x: 0.019233478, y: 7.389644e-15, z: 0.0000005215373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandPinky1
+      parentName: Flip:RightHand
+      position: {x: 0.08882499, y: -0.003130254, z: -0.024895621}
+      rotation: {x: -0.0019282695, y: -0.012059157, z: -0.025101108, w: 0.99961036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandPinky2
+      parentName: Flip:RightHandPinky1
+      position: {x: 0.030477963, y: -6.6592066e-13, z: 0.00000082646613}
+      rotation: {x: -0.000028689614, y: 0.0000019203865, z: -0.0017280978, w: 0.9999985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandPinky3
+      parentName: Flip:RightHandPinky2
+      position: {x: 0.019768996, y: -3.856826e-13, z: 0.0000005361445}
+      rotation: {x: -0.000009188586, y: -0.00000083944633, z: -0.026877152, w: 0.9996388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flip:RightHandPinky4
+      parentName: Flip:RightHandPinky3
+      position: {x: 0.016686387, y: -3.544187e-13, z: 0.00000045244988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
