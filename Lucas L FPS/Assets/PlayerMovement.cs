@@ -27,14 +27,14 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {     // kollar om det är ground under fötterna
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
-
+         // kollar om gubben springer
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-
+        // om den spinger så tar upp movment speed
         if (isSprinting == true)
         {
             speed = 25f;
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         controller.Move(move * speed * Time.deltaTime);
-
+        // Jump delen
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);

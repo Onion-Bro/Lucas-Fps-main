@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     private float nextTimeToFire = 0f;
     // Update is called once per frame
     void Update()
-    {
+    {      // bästemer knapp och om du skjuter
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
@@ -24,9 +24,9 @@ public class Gun : MonoBehaviour
     }
 
     void Shoot()
-    {
+    {  // spelar muzzleFlash
         muzzleFlash.Play();
-
+        // kollar om den träffar och då sender damage till "target"
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
